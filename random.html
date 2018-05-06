@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/random.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>API Quote Machine</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Random Quote Generator</h1>
+                <p>Making Ajax calls like a pro!</p>
+                <hr>
+            </div>
+            <!-- < Quote -->
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <div class="quoteBox">
+                    <p id="quote">Quote: </p>
+                    <p id="author">Author: </p>
+                </div>
+            </div>
+            <br>
+            <!-- buttons -->
+            <ul class="list-inline text-center">
+                <li>
+                    <a href="#" class="btn btn-default btn-md getQuote" id='get-another-quote-button'><i class="fas fa-redo"></i>Another Quote </button>
+                </a>
+                    <a href="#" class="btn btn-default btn-md tweetQuote"><i class= "fab fa-twitter"></i> Tweet Quote </button>
+                </a>
+                </li>
+            </ul>
+        </div>
+        <!-- main container-fluid -->
+    </div>
+    <script src="random.js"></script>
+</body>
+
+</html>
